@@ -1,0 +1,4 @@
+db_name :sdm
+db_username : sdm_acc
+db_pass : TV*%Bh#w>g2sQ}d!
+ftp pass : commonly used pass
