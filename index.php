@@ -1,6 +1,5 @@
 <?php
-//$con = mysqli_connect("localhost", "id15468966_sdm_acc", "TV*%Bh#w>g2sQ}d!","id15468966_sdm","3306");
-$con = mysqli_connect("localhost", "root", "","id15468966_sdm");
+$con = mysqli_connect("localhost", "id15468966_sdm_acc", "TV*%Bh#w>g2sQ}d!","id15468966_sdm","3306");
 $response = array();
 
 if ($con){
