@@ -3,14 +3,14 @@
 include('../config/db.php');
 
 if ($con) {
-    if (isset($_GET['id_presensi'])) {
+    if (isset($_POST['id_presensi'])) {
         header("Content-Type: JSON");
 
         //covert local time
         date_default_timezone_set("Asia/Jakarta");
 
         //get parameter id_presesnsi from url
-        $id = $_GET['id_presensi'];
+        $id = $_POST['id_presensi'];
 
         //get data presensi user
         $result = mysqli_query($con, "SELECT * FROM tb_presensi where id_presensi = '$id'");
